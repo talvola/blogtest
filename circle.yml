@@ -6,5 +6,5 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: test-blog-1
+      appname: thawing-beach-7639
  
