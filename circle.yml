@@ -1,3 +1,10 @@
 machine:
   ruby:
     version: 2.2.2
+
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: test-blog-1
+ 
