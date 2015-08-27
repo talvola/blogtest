@@ -5,13 +5,8 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.3'
 
 # Use sqlite3 as the database for Active Record
-# -- use Postgres for prod and heroku
-gem 'sqlite3', :group => [:development, :test]
-group :production do
-  gem 'thin'
-  gem 'pg'
-end
-
+# -- use Postgres instead
+gem 'pg'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
